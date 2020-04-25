@@ -4,21 +4,23 @@
 """
 Team: NESP Technology
 Author: <a href="mailto:1756404649@qq.com">靳兆鲁 Email:1756404649@qq.com</a>
-Time: Created 2020/4/26 0:04
+Time: Created 2020/4/26 0:26
 Project: FishMovieManagerTools
-Description:Python Grammar extensions
+Description:Python Grammar extensions: Const
 """
+
 
 class _const:
     """Const type for python
 
-    Usage:# test.py
-            import const
-            const.PI=3.14
-            print(const.PI)
+     Usage:# test.py
+             import const
+             const.PI=3.14
+             print(const.PI)
 
-    if you rebind a value,it will raise ConstError
-    """
+     if you rebind a value,it will raise ConstError
+     """
+
     class ConstError(TypeError):
         pass
 
