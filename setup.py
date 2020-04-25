@@ -19,7 +19,7 @@ setup(
     # license="GPLv3",
     # keywords="redis subscripe",
     # url="https://ssl.xxx.org/redmine/projects/RedisRun",
-    # packages=['nesp/sdk/python'],  # 需要打包的目录列表
+    packages=['nesp'],  # 需要打包的目录列表
 
     # 需要安装的依赖
     # install_requires=[
